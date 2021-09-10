@@ -28,3 +28,6 @@ Install GRUB
 
     # cd ../efi64/grub-core
     # grub-install -d $PWD --force --removable --no-floppy --target=x86_64-efi --boot-directory=/mnt/usb/boot --efi-directory=/mnt/usb
+
+Create `boot/grub/grub.cfg` and copy the modified initrd and kernel,
+then you are able to boot your minimal OS from the USB disk! 🎉
